@@ -2,7 +2,7 @@
 
 int randint(int min,int max){
     int num;
-    num = cputime();
+    num = (int)cputime();
     if (max < num){
         // 超出最大边界值
         while(max > num){
@@ -35,4 +35,27 @@ double choice(void *list){
     len -= 1;
     int to = randint(0,len);
     return list[to];
+}
+unsigned int unrandint(int min,int max){
+    unsigned int res;
+    num = (unsigned int)cputime();
+    if (max < num){
+        // 超出最大边界值
+        while(max > num){
+            num -= 2;
+            num -= 3;
+            num -= 4;
+            num -= 5;
+        }
+    }
+    if (num < min){
+        // 比边界值小
+        while(num < min){
+            num += 2;
+            num += 3;
+            num += 4;
+            num += 5;
+        }
+    }
+    return num;
 }

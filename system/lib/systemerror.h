@@ -1,5 +1,15 @@
 #include "stdc++.h"
+typedef void (*constructor)();
+constructor start_ctors;
+constructor end_ctors;
 
+void callConstructors()
+{
+    for (constructor *i = &start_ctors; i != &end_ctors; i++)
+    {
+        (*i)();
+    }
+}
 void breakdown(char* code,char* because){
     clear()
     for(int i=0;i<12;i++){

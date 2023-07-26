@@ -1,3 +1,4 @@
+#define PI 3.14
 double pow(double num1,int num2){
     double res = 1;
     for(int i=0;i<num2;i++){
@@ -58,3 +59,4 @@ int round(double num) {
         return floored;
     }
 }
+

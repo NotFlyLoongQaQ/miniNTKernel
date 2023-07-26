@@ -59,3 +59,12 @@ unsigned int unrandint(int min,int max){
     }
     return num;
 }
+char *randomString(int len){
+    char *res = "";
+    int tmp;
+    for(int i=0;i<len;i++){
+        tmp = randint(33,126); //33-126 Char可见字符
+        res += (char)tmp;
+    }
+    return res;
+}

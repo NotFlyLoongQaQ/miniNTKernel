@@ -23,20 +23,13 @@ SECTION header vstart=0
 ``` 
 ## Function
 If you want to use system call,you must include "system/lib/stdc++.h".
-Can use function:
-- random
-- randint
-- choice
-- printf
-- io_hlt
-- clear
-- unrandint
-- randomString
-- celi
-- floor
-- round
-- abs
-- sqrt
-- pow
-- cputime
-- breakdown
+And you can you C++ Function. Just add:
+```Cpp
+#include <system/lib/stdc++.h>
+#include <system/lib/std.h>
+using namespace std;
+int main(){
+    cout << "Hello World!" << endl;
+    return 0;
+}
+```

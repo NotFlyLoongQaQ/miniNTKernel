@@ -1,3 +1,4 @@
+#include <file.h>
 // os/kernel.cpp
 void printf(const char *str)
 {

@@ -4,6 +4,7 @@
         "future": "cpp",
         "system_error": "cpp",
         "regex": "cpp",
-        "usererror": "c"
+        "usererror": "c",
+        "ratio": "cpp"
     }
 }

@@ -1,13 +1,6 @@
+#ifndef _SYSTEMCALL_H_
+#define _SYSTEMCALL_H_
 #include "lib/clear.h"
 #include "lib/io.h"
-
-void systemCall(char *code){
-    char *tmp = code;
-    if (tmp == "1"){
-        clear();
-    }else if (tmp == "2")
-    {
-        io_hlt();
-    }
-    return;
-}
+void systemCall(char *code){}
+#endif

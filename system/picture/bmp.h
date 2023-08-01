@@ -23,6 +23,8 @@ namespace bmp{
             DWORD biClrUsed;// 位图实际使用的颜色表中的颜色数（47-50字节）  
             DWORD biClrImportant;// 位图显示过程中重要的颜色数（51-54字节）  
         } BITMAPINFOHEADER;  
+    }
+    namespace io{
         
     }
 }

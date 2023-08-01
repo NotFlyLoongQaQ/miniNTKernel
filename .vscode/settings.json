@@ -3,6 +3,7 @@
     "files.associations": {
         "future": "cpp",
         "system_error": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "usererror": "c"
     }
 }

@@ -1,22 +1,7 @@
-#include <systemerror.h>
-#include <stdc++.h>
-#include <std.h>
-using namespace std;
+#ifndef _USERERROR_H_
+#define _USERERROR_H_
 
-void toSystemError(int code, char *tips){
-    const char *realTips = tips;
-    const int realCode = code;
-    void t = breakdown(realCode,realTips);
-    return;
-}
+int userError(int code, char *tips){}
+void toSystemError(int code, char *tips){}
 
-int userError(int code, char *tips){
-    clear()
-    for(int i=0;i<10;i++){
-        printf('-');
-    }
-    string tips = "A Error: " + tips;
-    cout << tips << endl;
-    return 0;
-}
-
+#endif
